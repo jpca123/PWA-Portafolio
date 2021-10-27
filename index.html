@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta Etiquetas de PWA -->
+
+    <meta name="theme-color" content="rgb(6, 115, 179)"> <!-- color barra de busqueda -->
+    <meta name="MobileOptimized" content="width"> 
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- color de el encabezado de la pwa -->
+
+    <link rel="shortcut icon" type="image/ico" href="./assets/programming.ico"> <!-- icono de aplicacion -->
+    <link rel="apple-touch-icon" href="./assets/programming.ico">  <!-- icono de aplicacion en lista apps -->
+    <link rel="apple-touch-startup-image" href="./assets/programming.ico"> <!-- icono de aplicacion en loading de la pwa-->
+    <link rel="manifest" href="./manifest.json"> <!-- url de el archivo manifest.json -->
+
+    <!-- fin Meta Etiquetas -->
+
+    <title>Portafolio Juan Pablo Castillo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- mi hoja de estilos -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+    <body>
+    <header class="header" id="header">
+      <a href="/" class="header-logo">Portafolio</a>
+
+      <input type="checkbox" class="navegacion-input" />
+      <button class="navegacion-btn"></button>
+
+      <nav class="navegacion">
+        <a href="#inicio" class="navegacion-link">Inicio</a>
+        <a href="#acerca" class="navegacion-link">Acerca</a>
+        <a href="#servicios" class="navegacion-link">Servicios</a>
+        <a href="#trabajos" class="navegacion-link">trabajos</a>
+        <a href="#testimonios" class="navegacion-link">Testimonios</a>
+        <a href="#contacto" class="navegacion-link">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" id="inicio">
+        <article class="hero-container">
+          <aside class="hero-text">
+            <h1>Juan Pablo<wbr /> Castillo</h1>
+            <a href="#formulario-contacto" class="btn">Contáctame</a>
+          </aside>
+        </article>
+      </section>
+
+      <section class="section habilitys" id="acerca">
+        <article class="habilitys-info hability-section">
+          <h3 class="title-2">Juan Pablo Castillo</h3>
+          <h4 class="hability-info-slogan">
+            <strong>Desarrollador web</strong>
+          </h4>
+
+          <p class="text">
+            Mi nombre es <strong>Juan Pablo Castillo</strong> soy estudiante
+            autodidacta de programación y desarrollor web, amante de la
+            tecnología como el brazo derecho de la evolución de la humanidad y
+            herramienta al servicio de las personas
+          </p>
+          <p class="text">
+            Me gusta aprender y ayudar a las personas que se puedan servir de
+            mis conocimientos, para así mejorar mi entorno contribuir al
+            desarrollo de la sociedad aportando en una rama productiva con ideas
+            innovadoras y sostenibles
+          </p>
+          <p>
+            Me apasiona el futuro y la evolución del mundo por ello me gusta
+            probar cosas nuevas y estar mejorandome a mi mismo y a los demas
+            para alcanzar un futuro mejor.
+          </p>
+        </article>
+
+        <article class="hability-section">
+          <img
+            class="habilitys-photo"
+            src="assets/Fondo_JS.png"
+            alt="Juan Pablo"
+            title="Juan Pablo Castillo"
+          />
+        </article>
+
+        <article class="hability-section">
+          <h3 class="title-2">Habilidades</h3>
+          <div class="hability-container">
+            <p><span>Html, Css y Javascript</span><b>100%</b></p>
+            <progress
+              class="hability-progress"
+              min="0"
+              max="100"
+              value="100"
+            ></progress>
+          </div>
+
+          <div class="hability-container">
+            <p><span>Responsive Design</span><b>90%</b></p>
+            <progress
+              class="hability-progress"
+              min="0"
+              max="100"
+              value="90"
+            ></progress>
+          </div>
+          <div class="hability-container">
+            <p><span>Python</span><b>90%</b></p>
+            <progress
+              class="hability-progress"
+              min="0"
+              max="100"
+              value="90"
+            ></progress>
+          </div>
+          <div class="hability-container">
+            <p><span>Posicionamiento SEO</span><b>80%</b></p>
+            <progress
+              class="hability-progress"
+              min="0"
+              max="100"
+              value="80"
+            ></progress>
+          </div>
+          <div class="hability-container">
+            <p><span>Back-end Django</span><b>70%</b></p>
+            <progress
+              class="hability-progress"
+              min="0"
+              max="100"
+              value="70"
+            ></progress>
+          </div>
+        </article>
+      </section>
+
+      <section class="section services" id="servicios">
+        <h2 class="section-title">Te puedo ofrecer</h2>
+        <section class="services-container">
+          <article class="services-service">
+            <span class="big-icon services-icon material-icons">
+              fast_forward
+            </span>
+            <h3 class="title-2">Servicio 1</h3>
+            <p class="text">
+              Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Aliquid
+              inventore soluta, magni eos deleniti tempora, incidunt tenetur
+              impedit repellendus quod.
+            </p>
+          </article>
+          <article class="services">
+            <span class="big-icon services-icon material-icons">
+              settings
+            </span>
+            <h3 class="title-2">Servicio 2</h3>
+            <p class="text">
+              Aspernatur voluptates impedit, velit neque, sequi officia at,
+              tempore dolorem earum, porro ullam ab. Assumenda dicta nemo esse
+              voluptatibus at?
+            </p>
+          </article>
+          <article class="services">
+            <span class="big-icon services-icon material-icons"> lock </span>
+            <h3 class="title-2">Servicio 3</h3>
+            <p class="text">
+              Deserunt amet repellat quisquam eos, mollitia voluptatum
+              cupiditate doloremque, voluptas et. Voluptates soluta possimus
+              error cum fuga explicabo obcaecati deleniti.
+            </p>
+          </article>
+          <article class="services">
+            <span class="big-icon services-icon material-icons">
+              favorite
+            </span>
+            <h3 class="title-2">Servicio 4</h3>
+            <p class="text">
+              Architecto necessitatibus sequi velit, quisquam deleniti sit,
+              itaque, earum iure praesentium dolores voluptatibus animi. Culpa
+              harum, vitae molestias saepe tempore.
+            </p>
+          </article>
+          <article class="services">
+            <span class="big-icon services-icon material-icons">
+              favorite
+            </span>
+            <h3 class="title-2">Servicio 5</h3>
+            <p class="text">
+              Nihil architecto consectetur natus, voluptate, aspernatur nam ab
+              sed necessitatibus illo optio placeat eaque culpa, laborum totam
+              eos iusto velit?
+            </p>
+          </article>
+          <article class="services">
+            <span class="big-icon services-icon material-icons"> timer </span>
+
+            <h3 class="title-2">Servicio 6</h3>
+            <p class="text">
+              Natus sapiente, repellat hic officiis pariatur inventore deleniti
+              cupiditate perferendis quisquam rerum quis facere ipsa fugit, qui
+              magni earum libero?
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <section class="section works" id="trabajos">
+        <h2 class="section-title">Mis Trabajos</h2>
+
+        <section class="works-container">
+          <article class="work-container">
+            <aside class="work-sub-container">
+              <section class="work">
+                <h3 class="title-2">Trabajo 1</h3>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorem, fugit. Architecto, in.
+                </p>
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="work-link btn"
+                  >Visitar</a
+                >
+              </section>
+            </aside>
+          </article>
+          <article class="work-container">
+            <aside class="work-sub-container">
+              <section class="work">
+                <h3 class="title-2">Trabajo 2</h3>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorem, fugit. Architecto, in.
+                </p>
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="work-link btn"
+                  >Visitar</a
+                >
+              </section>
+            </aside>
+          </article>
+          <article class="work-container">
+            <aside class="work-sub-container">
+              <section class="work">
+                <h3 class="title-2">Trabajo 3</h3>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorem, fugit. Architecto, in.
+                </p>
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="work-link btn"
+                  >Visitar</a
+                >
+              </section>
+            </aside>
+          </article>
+          <article class="work-container">
+            <aside class="work-sub-container">
+              <section class="work">
+                <h3 class="title-2">Trabajo 4</h3>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorem, fugit. Architecto, in.
+                </p>
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="work-link btn"
+                  >Visitar</a
+                >
+              </section>
+            </aside>
+          </article>
+          <article class="work-container">
+            <aside class="work-sub-container">
+              <section class="work">
+                <h3 class="title-2">Trabajo 5</h3>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorem, fugit. Architecto, in.
+                </p>
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="work-link btn"
+                  >Visitar</a
+                >
+              </section>
+            </aside>
+          </article>
+          <article class="work-container">
+            <aside class="work-sub-container">
+              <section class="work">
+                <h3 class="title-2">Trabajo 6</h3>
+                <p class="text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolorem, fugit. Architecto, in.
+                </p>
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="work-link btn"
+                  >Visitar</a
+                >
+              </section>
+            </aside>
+          </article>
+        </section>
+      </section>
+
+      <section class="section" id="testimonios">
+        <h2 class="section-title">Dicen de mi trabajo</h2>
+
+        <section class="testimonys">
+          <input
+            type="radio"
+            checked="true"
+            name="testimony-visible"
+            class="testimony-controls-input"
+            id="testimony-1"
+          />
+          <input
+            type="radio"
+            name="testimony-visible"
+            class="testimony-controls-input"
+            id="testimony-2"
+          />
+          <input
+            type="radio"
+            name="testimony-visible"
+            class="testimony-controls-input"
+            id="testimony-3"
+          />
+          <input
+            type="radio"
+            name="testimony-visible"
+            class="testimony-controls-input"
+            id="testimony-4"
+          />
+
+          <section class="testimonys-container">
+            <article class="testimony">
+              <img
+                src="assets/Fondo_JS.png"
+                alt="Persona"
+                class="testimony-img"
+              />
+              <blockquote class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+                nostrum, exercitationem. Illo autem iure cupiditate!
+              </blockquote>
+              <p class="title-2">Pepito Pérez</p>
+              <small class="testimony-work">Director Lorem, ipsum.</small>
+            </article>
+            <article class="testimony">
+              <img
+                src="assets/Fondo_JS.png"
+                alt="Persona"
+                class="testimony-img"
+              />
+              <blockquote class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+                nostrum, exercitationem. Illo autem iure cupiditate!
+              </blockquote>
+              <p class="title-2">Pepito Pérez</p>
+              <small class="testimony-work">Director Lorem, ipsum.</small>
+            </article>
+            <article class="testimony">
+              <img
+                src="assets/Fondo_JS.png"
+                alt="Persona"
+                class="testimony-img"
+              />
+              <blockquote class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+                nostrum, exercitationem. Illo autem iure cupiditate!
+              </blockquote>
+              <p class="title-2">Pepito Pérez</p>
+              <small class="testimony-work">Director Lorem, ipsum.</small>
+            </article>
+            <article class="testimony">
+              <img
+                src="assets/Fondo_JS.png"
+                alt="Persona"
+                class="testimony-img"
+              />
+              <blockquote class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
+                nostrum, exercitationem. Illo autem iure cupiditate!
+              </blockquote>
+              <p class="title-2">Pepito Pérez</p>
+              <small class="testimony-work">Director Lorem, ipsum.</small>
+            </article>
+          </section>
+
+          <aside class="testimony-controls">
+            <label for="testimony-1" class="testimony-controls-label"></label>
+            <label for="testimony-2" class="testimony-controls-label"></label>
+            <label for="testimony-3" class="testimony-controls-label"></label>
+            <label for="testimony-4" class="testimony-controls-label"></label>
+          </aside>
+        </section>
+      </section>
+
+      <section class="section contact" id="contacto">
+        <h2 class="section-title">Contacto</h2>
+
+        <section class="contact-cards">
+          <article class="contact-card">
+            <span class="big-icon services-icon material-icons">
+                home
+              </span>
+            <h3 class="title-2">Card 1</h3>
+            <p class="text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellat, autem!
+            </p>
+          </article>
+          <article class="contact-card">
+            <span class="big-icon services-icon material-icons">
+                contact_mail
+              </span>
+            <h3 class="title-2">Card 2</h3>
+            <p class="text">
+              Veniam nesciunt eveniet iure maxime exercitationem! Sed nulla
+              repudiandae exercitationem.
+            </p>
+          </article>
+          <article class="contact-card">
+            <span class="big-icon services-icon material-icons">
+                telegram
+              </span>
+            <h3 class="title-2">Card 3</h3>
+            <p class="text">
+              Dignissimos a quo nihil quisquam cumque maxime est inventore
+              natus.
+            </p>
+          </article>
+          <article class="contact-card">
+            <span class="big-icon services-icon material-icons">
+                place
+              </span>
+            <h3 class="title-2">Card 4</h3>
+            <p class="text">
+              Ad modi consequatur quae voluptatibus tempore provident, possimus
+              ex fugiat?
+            </p>
+          </article>
+        </section>
+
+        <form action="" class="contact-form" id="formulario-contacto">
+          <h3 class="contact-form-title">Contactame</h3>
+          
+
+          <input
+            name="nombre"
+            type="text"
+            class="contact-form-input"
+            placeholder="Ingresa tu nombre"
+            maxlength="80"
+            minlength="3"
+          />
+          <input
+            name="correo"
+            type="email"
+            class="contact-form-input"
+            placeholder="Ingresa tu correo"
+          />
+
+          <textarea
+            name="comentario"
+            cols="30"
+            rows="10"
+            class="contact-form-input contact-message"
+            placeholder="Deja tus comentarios"
+          ></textarea>
+
+          <button class="btn">Enviar Mensaje</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-info">Diseñado por : Juan Pablo Castillo</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

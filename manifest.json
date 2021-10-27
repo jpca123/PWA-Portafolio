@@ -1,0 +1,19 @@
+{
+  "name": "PWA de prueba",
+  "short_name": "Mini PWA",
+  "description": "Este es un proyecto para guardar la estructura de una PWA y replicarla en el futuro",
+  "background_color": "rgb(6, 115, 179)",
+  "theme_color": "#279",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es",
+   "icons": [
+	    {
+	      "src": "./assets/programming.ico",
+	      "sizes": "256x256",
+	      "type": "image/png"
+	    }
+	]
+}
